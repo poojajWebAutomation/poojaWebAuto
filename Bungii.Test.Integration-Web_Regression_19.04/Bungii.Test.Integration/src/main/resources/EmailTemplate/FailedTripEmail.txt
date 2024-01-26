@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html xmlns="https://u9800948.ct.sendgrid.net/ls/click?upn=tdqmg9z9kIREDffCjWQXnCGJcMDBl0qA8VKJtKsXO783TaIh3lqg6BHH-2Ffbw4XpC2Hss_YtpsuXYcg3qMsi5YuKOwztO-2FzUJAERHuYcWFU8N6hvRGhVVz6ElQTKhQSfd4gIpsYs1QdtRHeqjlZY-2F9KookxA0wafflWTQ85zANj4T1j-2Bw-2B-2FrouNZWY6b9-2BcYeb9bGJJ94bp7TtctoIX84YYFa3Krg7-2Faeuk-2BH11cioJHKxki1SSSaB2ktSnzoPMXj6BZlNMM7nVpGxirdPYBgLbpbaznrOwjpADEE7bxsDgod-2FDsM-3D>
+<head>
+    <meta charset="utf-8" />
+    <title>Failed Trips</title>
+</head>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+<body>
+
+<table>
+    <tr>
+	    <th>PickupID</th>
+		<th>PickupRef</th>
+		<th>PickupType</th>
+		<th>CustomerName</th>
+		<th>CustomerPhone</th>
+		<th>PickupLocation</th>
+		<th>PickupAddress</th>
+	 </tr>
+
+	<tr>
+		    <td>%PickupID%</td>
+			<td>%PickupRef%</td>
+			<td>%PickupType%</td>
+			<td>%CustomerName%</td>
+			<td>%CustomerPhone%</td>
+			<td>%PickupLocation%</td>
+			<td>%PickupAddress%</td>
+		</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,64 @@
+{
+  "device1": {
+    "platformName": "Android",
+    "automationName":"UiAutomator2",
+    "deviceType": "MOTOROLA",
+    "deviceName": "Moto G",
+    "platformVersion": "5.0.2",
+    "noReset": true,
+    "newCommandTimeout": "60",
+    "autoWebView": true,
+    "appPackage": "com.bungii.customer",
+    "appActivity": "com.bungii.ui.activities.splash.SplashScreenActivity",
+    "systemPort": 8100,
+    "uiautomator2ServerLaunchTimeout":30000,
+    "appWaitDuration": 40000,
+    "udid": "TA93401OLE"
+  },
+  "extra3": {
+    "platformName": "android",
+    "automationName":"UiAutomator2",
+    "deviceType": "MOTOROLA",
+    "deviceName": "Moto G4 Plus",
+    "platformVersion": "7.0",
+    "noReset": true,
+    "newCommandTimeout": "900",
+    "autoWebView": true,
+    "appPackage": "com.bungii.customer",
+    "appActivity": "com.bungii.ui.activities.splash.SplashScreenActivity",
+    "systemPort": 8110,
+    "udid": "ZY2239HR8Q"
+  },
+  "extra1": {
+    "platformName": "android",
+    "automationName":"UiAutomator2",
+    "deviceType": "MOTOROLA",
+    "deviceName": "Moto G-01",
+    "platformVersion": "5.1",
+    "noReset": true,
+    "newCommandTimeout": "900",
+    "autoWebView": true,
+    "appPackage": "com.bungii.customer",
+    "appActivity": "com.bungii.ui.activities.splash.SplashScreenActivity",
+    "systemPort": 8110,
+    "udid": "TA93402GOQ"
+  },
+  "extra2": {
+    "platformName": "android",
+    "automationName":"UiAutomator2",
+    "deviceType": "Nokia",
+    "deviceName": "Nokia 6.1 Plus",
+    "platformVersion": "7.0",
+    "noReset": true,
+    "newCommandTimeout": "900",
+    "autoWebView": true,
+    "appPackage": "com.bungii.driver",
+    "appActivity": "com.bungii.ui.activities.splash.SplashScreenActivity",
+    "systemPort": 8110,
+    "udid": "DRGID18101708783"
+  },
+  "connection": {
+    "device1": 4723,
+    "extra1": 4727
+  }
+}

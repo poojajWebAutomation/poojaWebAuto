@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" charset="utf-8">
+</head>
+
+<body>
+    <div>
+        <span style="font-size: 14px;">
+			<span style="font-family: arial,helvetica,sans-serif;">Hi %CustomerName%,&nbsp;</span>
+        </span>
+    </div>
+    <div>&nbsp;</div>
+    <div>
+        <span style="color:#626262;">
+			<span style="font-size: 14px;">
+				<span style="font-family: arial,helvetica,sans-serif;">Thanks again for using Bungii.&nbsp;</span>
+        </span>
+        </span>
+    </div>
+
+    <div>&nbsp;</div>
+
+    <div>
+        <span style="color:#626262;">
+			<span style="font-size: 14px;">
+				<span style="font-family: arial,helvetica,sans-serif;">Date: %BungiiDate%
+				</span>
+        </span>
+        </span>
+    </div>
+
+    <div><span style="color:#626262;">
+				<span style="font-size: 14px;">
+					<span style="font-family: arial,helvetica,sans-serif;">Driver 1: %Driver1%&nbsp;</span>
+			</span>
+			</span>
+		</div>
+
+    <div>
+        <span style="color:#626262;"><span style="font-size: 14px;">
+			<span style="font-family: arial,helvetica,sans-serif;">Pick up: <em>%PickupAddress%</em></span>
+        </span>
+        </span>
+    </div>
+
+    <div>
+        <span style="color:#626262;"><span style="font-size: 14px;">
+			<span style="font-family: arial,helvetica,sans-serif;">Drop off: <em>%DropAddress%</em></span>
+        </span>
+        </span>
+    </div>
+
+    <div>
+        <span style="color:#626262;">
+			<span style="font-size: 14px;">
+				<span style="font-family: arial,helvetica,sans-serif;">Duration: %BungiiDuration%
+				</span>
+        </span>
+        </span>
+    </div>
+
+    <div>
+        <span style="color:#626262;">
+			<span style="font-size: 14px;">
+				<span style="font-family: arial,helvetica,sans-serif;">Total Fare: $%BungiiCost%
+				</span>
+        </span>
+        </span>
+    </div>
+
+    <div>&nbsp;</div>
+    <div>
+        <span style="color:#626262;">
+			<span style="font-size: 14px;">
+				<span style="font-family: arial,helvetica,sans-serif;">
+					<strong>We work hard for Bungii to be a relevant part of your life&nbsp;</strong>and would love to know your thoughts. Can you take this 10 second survey?&nbsp;<strong>We're giving away $100</strong>&nbsp;to someone for helping us out. Tap below.
+				</span>
+        </span>
+        </span>
+    </div>
+    <div>&nbsp;</div>
+    <table align="center">
+        <tr>
+            <td>
+                <a href="https://u9800948.ct.sendgrid.net/ls/click?upn=FfW8eExWcg0sHzFkyx5kURxp2Sftg-2BP5FQyEIJpBP2XeMd5DHkalxngMq8c0LQqYpn7__YtpsuXYcg3qMsi5YuKOwztO-2FzUJAERHuYcWFU8N6hvSMHNnLoDNTPGW4MyhFKbmVhrH1TjMgXGX9eFgZNNu0K8HADT-2Fb3Q-2FgxTaa4jskwgE9U1AC0-2FFs5dCony-2F1OEze-2B6zygPFIqiCva4ibRSlQbc-2BK6iRFZCdLoPbomQJrVIJFO8Hyf1sdIV9zlRNeYFZYidfpV24fmvrgZ2GhmlL7b6e9SqDthSamnXd5yzKSQIwht48tO2vhN2d8T5broiXT style="text-decoration:none;" target="_blank"><img width="280" height="50" border="0" style="display:block;" alt="" src="cid:btn-tap-here-cid"></a>
+            </td>
+        </tr>
+    </table>
+    <div>&nbsp;</div>
+    <div>
+           <span style="color:#626262;">
+			<span style="font-size: 14px;">
+				<span style="font-family: arial,helvetica,sans-serif;">Enjoyed Bungii? Leave an online review with your driver&#39;s name and&nbsp;<strong>he&#39;ll be compensated.</strong>
+                </span>
+        </span>
+        </span>
+    </div>
+
+    <div>&nbsp;</div>
+
+    <div>
+        <span style="color:#626262;font-size: 14px;font-family: arial,helvetica,sans-serif;">Best,&nbsp;</span>
+    </div>
+
+    <div>
+        <span style="color:#626262;font-size: 14px;font-family: arial,helvetica,sans-serif;">The Bungii Team (@BungiiApp)</span>
+    </div>
+
+    <div>&nbsp;</div><div>&nbsp;</div><div style="width:55%">
+        <span style="vertical-align: super;font-size: smaller;color:red;">*</span>
+        <span style="color:#626262;font-size: 14px;font-family: arial,helvetica,sans-serif;">PS - As a quick reminder, we have a $39 minimum per driver. If your trip doesn’t exceed the minimum, the promo will not be applied. Here are your trip details:&nbsp;</span>
+    </div><table style="width:55%" border="1">
+        <tr>
+            <th>
+                <div>
+                    <span style="color:#626262;">
+							<spanfont-family: style="font-size: 14px;style=" arial,helvetica,sans-serif;"">
+								<span style="font-family: arial,helvetica,sans-serif;">Trip Breakdown</span></spanfont-family:>
+                    </span>
+                </div>
+            </th>
+            <th>
+                <div>
+                    <span style="color:#626262;">
+							<span style="font-size: 14px;">
+								<span style="font-family: arial,helvetica,sans-serif;">Estimate</span>
+                    </span>
+                    </span>
+                </div>
+            </th>
+            <th>
+                <div>
+                    <span style="color:#626262;">
+							<span style="font-size: 14px;">
+								<span style="font-family: arial,helvetica,sans-serif;">Final</span>
+                    </span>
+                    </span>
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <span style="color:#626262;">
+							<span style="font-size: 14px;">
+								<span style="font-family: arial,helvetica,sans-serif;">Drive Time & Mileage</span>
+                    </span>
+                    </span>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <span style="color:#626262;">
+							<span style="font-size: 14px;">
+								<span style="font-family: arial,helvetica,sans-serif;">$%Estimate.Time%</span>
+                    </span>
+                    </span>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <span style="color:#626262;">
+							<span style="font-size: 14px;">
+								<span style="font-family: arial,helvetica,sans-serif;">$%Actual.Time%</span>
+                    </span>
+                    </span>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <span style="color:#626262;">
+							<span style="font-size: 14px;">
+								<span style="font-family: arial,helvetica,sans-serif;">Loading & Unloading Time</span>
+                    </span>
+                    </span>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <span style="color:#626262;">
+							<span style="font-size: 14px;">
+								<span style="font-family: arial,helvetica,sans-serif;">$%Estimate.loadTime%</span>
+                    </span>
+                    </span>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <span style="color:#626262;">
+							<span style="font-size: 14px;">
+								<span style="font-family: arial,helvetica,sans-serif;">$%Actual.loadTime%</span>
+                    </span>
+                    </span>
+                </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <div>
+                    <span style="color:#626262;">
+							<span style="font-size: 14px;">
+								<span style="font-family: arial,helvetica,sans-serif;">Total fare</span></span>
+                    </span>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <span style="color:#626262;">
+							<span style="font-size: 14px;">
+								<span style="font-family: arial,helvetica,sans-serif;">$%Estimate.Cost%</span>
+                    </span>
+                    </span>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <span style="color:#626262;">
+							<span style="font-size: 14px;">
+								<span style="font-family: arial,helvetica,sans-serif;">$%Actual.Cost%</span>
+                    </span>
+                    </span>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

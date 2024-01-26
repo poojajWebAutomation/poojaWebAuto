@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" charset="utf-8">
+	</head>
+	<body>
+		<div>
+            <span style="font-family: arial,helvetica,sans-serif;">Hi Admin,&nbsp;</span>
+		</div>
+        <br/>
+        <div>
+            <span style="font-family: arial,helvetica,sans-serif;">Partner %PartnerName% has canceled a delivery on %ScheduledDate%. Please see details below:&nbsp;</span>
+    </div>
+    <br/>
+
+    <div>
+      <span style="font-family: arial,helvetica,sans-serif;">Pickup address: %PickupAddress% &nbsp;</span>
+    </div>
+    <div>
+      <span style="font-family: arial,helvetica,sans-serif;">Delivery address: %DropupAddress% &nbsp;</span>
+    </div>
+    <br/>
+
+    <div>
+        <div>
+            <span style="font-family: arial,helvetica,sans-serif;">Customer Name: %CustomerName% &nbsp;</span>
+        </div>
+        <div>
+            <span style="font-family: arial,helvetica,sans-serif;">Customer Phone Number: %CustomerPhone% &nbsp;</span>
+        </div>
+    </div>
+    <br/><div></div>
+    <div>
+            <span style="font-family: arial,helvetica,sans-serif;">Item(s) to deliver: %ItemsToDeliver%</span>
+        </div><div>
+            <span style="font-family: arial,helvetica,sans-serif;">Pickup contact name: %PickupContactName%</span>
+        </div><div>
+            <span style="font-family: arial,helvetica,sans-serif;">Pickup contact phone: %PickupContactPhone%</span>
+        </div>
+    <br/>
+
+    <div>
+        <span style="font-family: arial,helvetica,sans-serif;">You can reach the partner at 2442442440.&nbsp;</span>
+    </div>
+    <br/>
+    <div>
+        <span style="font-family: arial,helvetica,sans-serif;">Thanks&nbsp;</span>
+    </div>
+	</body>
+</html>

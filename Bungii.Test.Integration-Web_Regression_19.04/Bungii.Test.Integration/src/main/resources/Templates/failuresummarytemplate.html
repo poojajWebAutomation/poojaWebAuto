@@ -1,0 +1,240 @@
+<html>
+<head>
+    <style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 2000px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+        body {background-color: white;}table {background-color: #DCDCDC; text-align: center;}th { background-color: #003399;text-align: center;  color: #FFFFFF; font-family:  Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;font-size: 15px;}tr { background-color: #E6E6E6; color: #1F1F7A;  font-family:  Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;font-size: 13px;}tr.d0 td { background-color: #01A9DB; }h1 { align=center; text-align: center; color: #003399; font-family:  Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;font-size: 25px; }h4 {text-align=right;font-family:  Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;font-size: 13px; }.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}<title>TEST EXECUTION SUMMARY REPORT</title>
+
+.content {
+
+    overflow: hidden;
+    white-space:normal;
+    text-overflow: ellipsis;
+    line-height: 1.2em;
+    /* max-height = line-height (1.2) * lines max number (3) */
+    max-height: 30px;
+    /* fix problem when last visible word doesn't adjoin right side  */
+    text-align: left;
+}
+.txtcol{
+
+  color:blue;
+  cursor:pointer;
+}
+.maincontent{
+  display:inline-block;
+  vertical-align:top;
+}
+#more {display: none;}
+    </style>
+    <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+    <script>
+         google.charts.load('current', {packages: ['corechart']}); google.charts.setOnLoadCallback(drawChart);      function drawChart() {        var data = new google.visualization.DataTable(); var passValue=document.getElementById('pass').value;var intPassValue = parseInt(passValue, 10); var failValue=document.getElementById('fail').value;var intFailValue = parseInt(failValue, 10); var inconclusiveValue=document.getElementById('inconclusive').value;var intInconclusiveValue = parseInt(inconclusiveValue, 10);       data.addColumn('string', 'Group');        data.addColumn('number', 'Gender');        data.addRows([         ['Pass', intPassValue],		    ['Fail', intFailValue],			['Inconclusive', intInconclusiveValue]		        ]);		        var options = {		            'title':'Test Summary',		            'width':400,		            'backgroundColor':'transparent',		            'is3D':true,		            'height':300};		        var chart = new google.visualization.PieChart(		            document.getElementById('status_chart'));		        chart.draw(data, options);		      }
+
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+$(document).ready(function() {
+  var ua = navigator.userAgent,
+    event = (ua.match(/iPad/i)) ? "touchstart" : "click";
+  if ($('.table').length > 0) {
+    $('.table .header').on(event, function() {
+      $(this).toggleClass("active", "").nextUntil('.header').css('display', function(i, v) {
+        return this.style.display === 'table-row' ? 'none' : 'table-row';
+      });
+    });
+  }
+});
+
+$(document).ready(function(){
+  $(".content").each(function(){
+    if($(this).height() < $(this)[0].scrollHeight){
+      $(this).parent().find(".txtcol").show();
+    }
+  });
+  $(".txtcol").click(function(){
+    if($(this).prev().hasClass("truncate")) {
+    				$(this).parent().find(".content").css("max-height", $(this).parent().find(".content")[0].scrollHeight);
+            $(this).children('a').text("Show Less");
+        } else {
+    				$(this).parent().find(".content").css("max-height", "30px");
+            $(this).children('a').text("Show More");
+        }
+  $(this).prev().toggleClass("truncate");
+
+  });
+});
+
+
+
+function showImage(path){
+ var modal = document.getElementById("myModal");
+ var modalImg = document.getElementById("img01");
+ var captionText = document.getElementById("caption");
+  modal.style.display = "block";
+  modalImg.src = path;
+  captionText.innerHTML = path;
+};
+
+function cc() {
+ var modal = document.getElementById("myModal");
+  modal.style.display = "none";
+};
+
+
+
+</script>
+</head>
+<body><img src=<!--LOGO.PATH--> align=right><h1 align=center>
+    <u> BUNGII <!--PLATFORM--> TEST SUITE EXECUTION REPORT</u></h1>
+<h3 align=center>
+    <u> TEST CATEGORY : <!--CATEGORY--></u></h3>
+<h3 align=center>
+    <u> TEST ENVIRONMENT : <!--ENVIRONMENT--></u></h3>
+<div class="container">
+    <div class="column"></br></br></br></br></br></br>
+        <table align=center border=3 width=90% style="font-weight: bold;">
+            <th colspan=7>TEST SUMMARY REPORT</th>
+            <tr class=d0>
+                <td><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPASS&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></td>
+                <td><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFAIL&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></td>
+                <td><b>INCONCLUSIVE</b></td>
+                <td><b>SKIPPED</b></td>
+                <td><b>START TIME</b></td>
+                <td><b>END TIME</b></td>
+                <td><b>TOTAL DURATION</b></td>
+            </tr>
+            <tr>
+                <td><b><!--PASSED.COUNT--></b></td>
+                <td><b><!--FAILED.COUNT--></b></td>
+                <td><b><!--INCONCLUSIVE.COUNT--></b></td>
+                <td><b><!--SKIPPED.COUNT--></b></td>
+                <td><b><!--START.TIME--></b></td>
+                <td><b><!--END.TIME--></b></td>
+                <td><b><!--TOTAL.TIME--></b></td>
+            </tr>
+        </table>
+    </div>
+    <div align=center id='status_chart' width=30% class="column"></div>
+</div>
+<table align=left border=3 width=100%  style="font-weight: bold;">
+    <th colspan=6>FAILED TEST ANALYSIS REPORT</th>
+    <tr class=d0>
+        <td><b>Sr.#</b></td>
+        <td><b>Testcase Title</b></td>
+        <td><b>Status</b></td>
+        <td><b>Failure Reason</b></td>
+    </tr><!--FAILURE.SUMMARY--></table>
+</table><input name=0 type="hidden" id="pass" value=<!--PASSED.COUNT--> />
+<input name=1 type="hidden" id="fail" value=<!--FAILED.COUNT--> />
+<input name=2 type="hidden" id="inconclusive" value=<!--INCONCLUSIVE.COUNT--> />
+<input name=3 type="hidden" id="skipped" value=<!--SKIPEED.COUNT--> />
+
+&nbsp<a href="./index.html"> Back to Summary Report</a>&nbsp
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <span onclick="cc()" class="close">&times;</span>
+    <img class="modal-content" id="img01" style="width:500px";>
+    <div id="caption"></div>
+</div>
+</body>
+</html>

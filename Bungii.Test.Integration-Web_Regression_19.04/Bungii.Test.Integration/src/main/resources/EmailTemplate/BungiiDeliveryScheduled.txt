@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<body>
+   <div>
+      <span style="font-family: arial,helvetica,sans-serif;">Hi there,&nbsp;</span>
+    </div>
+    <br/>
+    <div>
+      <span style="font-family: arial,helvetica,sans-serif;">A Bungii has been scheduled for pickup at %pickupLocation%. Please see details below:&nbsp;</span>
+    </div>
+    <br/>
+
+    <div>
+      <span style="font-family: arial,helvetica,sans-serif;">Estimated Scheduled Pickup Time: %TimeStamp% &nbsp;</span>
+  </div>
+  <br/>
+  <div>
+    <div>
+      <span style="font-family: arial,helvetica,sans-serif;">Customer Name: %CustomerName% &nbsp;</span>
+    </div>
+    <div>
+      <span style="font-family: arial,helvetica,sans-serif;">Customer Phone Number: %CustomerPhone% &nbsp;</span>
+    </div>
+  </div>
+  <br/>
+  <div>
+
+    <div>
+        <div>
+          <span>
+            <span style="font-family: arial,helvetica,sans-serif;">Driver Name: %DriverName%&nbsp;</span>
+          </span>
+			  </div>
+        <div>
+          <span>
+            <span style="font-family: arial,helvetica,sans-serif;">Driver Phone Number: %DriverPhoneNumber%&nbsp;</span>
+          </span>
+			  </div>
+        <div>
+          <span>
+            <span style="font-family: arial,helvetica,sans-serif;">Driver License Plate: %driverCarLicenceNumber%&nbsp;</span>
+          </span>
+			  </div>
+		  </div><br />
+  </div>
+
+   <span style="font-family: arial,helvetica,sans-serif;">Item(s) to deliver: </span><div>
+            <span style="font-family: arial,helvetica,sans-serif;">%itemsToDeliver% </span>
+        </div>
+<div>
+        <span style="font-family: arial,helvetica,sans-serif;">Special instructions: %SpecialInstructions%</span>
+    </div><div>
+            <span style="font-family: arial,helvetica,sans-serif;">Pickup contact name: </span>
+        </div><div>
+            <span style="font-family: arial,helvetica,sans-serif;">Pickup contact phone: </span>
+        </div><div>
+            <span style="font-family: arial,helvetica,sans-serif;">Drop off contact name: </span>
+        </div><div>
+            <span style="font-family: arial,helvetica,sans-serif;">Drop off contact phone: </span>
+        </div><div>
+            <span style="font-family: arial,helvetica,sans-serif;">Delivery purpose: %DeliveryPurpose%</span>
+        </div><div>
+            <span style="font-family: arial,helvetica,sans-serif;">RB/SB Number: %rbsbNumber%</span>
+        </div><div>
+            <span style="font-family: arial,helvetica,sans-serif;">Scheduled By: %scheduledBy%</span>
+        </div>
+    <br/>
+  <div>
+    <span style="font-family: arial,helvetica,sans-serif;">For questions or assistance, please text or email Bungii support at 12345 or support@bungii.com.&nbsp;</span>
+    <br/>
+    <br/>
+    <span style="font-family: arial,helvetica,sans-serif;">Thanks again for using Bungii. We're honored to be a resource to you and your customers.&nbsp;</span>
+    <br/>
+    <br/>
+    <span style="font-family: arial,helvetica,sans-serif;">-Team Bungii&nbsp;</span>
+  </div>
+</body>
+</html>

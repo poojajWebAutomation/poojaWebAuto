@@ -1,0 +1,53 @@
+{
+
+
+
+  "extra1": {
+    "platformName": "iOS",
+    "os_version": "16",
+    "automationName": "XCUITest",
+    "deviceName": "iPhone 14",
+    "browserstack.appium_version": "1.18.0",
+    "browserstack.networkLogs" : true,
+    "browserstack.local": true,
+    "browserstack.gpsLocation": "15.36413,73.9455",
+    "browserstack.idleTimeout": "300",
+    "browserstack.timezone": "New_York",
+    "language": "en",
+    "locale": "en_US",
+    "acceptInsecureCerts" : true,
+    "acceptSslCerts": true,
+    "browserstack.acceptInsecureCerts": true,
+    "browserstack.acceptSslCerts": true,
+    "newCommandTimeout":0
+
+
+
+  },
+  "device1": {
+    "platformName": "iOS",
+    "os_version": "16",
+    "automationName": "XCUITest",
+    "deviceName": "iPhone 14",
+    "browserstack.appium_version": "1.18.0",
+    "browserstack.networkLogs" : true,
+    "browserstack.local": true,
+    "browserstack.gpsLocation": "15.36413,73.9455",
+    "browserstack.idleTimeout": "300",
+    "browserstack.timezone": "New_York",
+    "language": "en",
+    "locale": "en_US",
+    "acceptInsecureCerts" : true,
+    "acceptSslCerts": true,
+    "browserstack.acceptInsecureCerts": true,
+    "browserstack.acceptSslCerts": true,
+    "newCommandTimeout":0
+  },
+
+
+
+  "connection": {
+    "device1": "",
+    "extra1": ""
+  }
+}

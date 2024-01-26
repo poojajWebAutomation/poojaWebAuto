@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    	<title></title>
+		<link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" charset="utf-8">
+	</head>
+	<body>
+		Hi %DriverName%,
+		<br><br>
+		Congrats, you’ve officially been accepted to be a Bungii driver!
+
+		<br><br>
+
+		To start making money, download the Bungii Driver app and
+		login with the phone number and password you used for your
+		application
+
+		<br><br>
+	    Download the Bungii Driver app here: %Link%
+
+		<br><br>
+		If you have any questions email (or tweet: @bungiiapp) us and we’re happy to help.
+		<br><br>
+		Thanks,
+		<br>
+		The Bungii Team
+	</body>
+</html>

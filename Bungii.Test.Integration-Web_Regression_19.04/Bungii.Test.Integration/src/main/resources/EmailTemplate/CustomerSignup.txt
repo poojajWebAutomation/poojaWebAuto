@@ -1,0 +1,444 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "%URL_1%>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0">
+<title>New to Bungii? Good.</title>
+<style type="text/css">
+* {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.ReadMsgBody {
+  width: 100%;
+}
+.ExternalClass {
+  width: 100%;
+}
+.ExternalClass * {
+  line-height: 100%;
+}
+table tr td {
+  mso-line-height-rule: exactly;
+}
+span.yshortcuts {
+  color: #000;
+}
+span.yshortcuts:hover, span.yshortcuts:active, span.yshortcuts:focus {
+  text-decoration: none;
+  color: #000;
+  background-color: none;
+  border: none;
+}
+.applelinks em a {
+  text-decoration: none !important;
+  color: #ffffff !important;
+  cursor: text !important;
+}
+th {
+  font-weight: normal !important;
+  text-align: left;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+span[class=noLink] a {
+  text-decoration: none !important;
+  color: #ea7f1e !important;
+}
+
+@media handheld, screen and (max-width: 480px) {
+.hide {
+  display: none !important;
+  height: 0 !important;
+  width: 0 !important;
+  line-height: 0px !important;
+}
+td {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+table[class=bodyWidth] {
+  width: 320px !important;
+}
+td[class=Width225] {
+  width: 225px !important;
+}
+table[class=Width280] {
+  width: 280px !important;
+  display: block !important;
+}
+th[class=Width300] {
+  width: 300px !important;
+  display: block !important;
+}
+
+table[class=Width190] {
+  width: 190px !important;
+}
+td[class=hide], table[class=hide], img[class=hide], br[class=hide] {
+  display: none !important;
+  height: 0 !important;
+  width: 0 !important;
+  line-height: 0px !important;
+}
+td[class=fontSize9] {
+  font-size: 9px !important;
+  line-height: 12px !important;
+}
+td[class=fontSize13] {
+  font-size: 13px !important;
+  line-height: 18px !important;
+}
+td[class=fontSize16] {
+  font-size: 16px !important;
+  line-height: 18px !important;
+}
+
+img[class=spacerWidth10] {
+  width: 10px !important;
+}
+
+img[class=spacerHeight10] {
+  height: 10px !important;
+}
+img[class=spacerHeight12] {
+  height: 12px !important;
+}
+img[class=spacerHeight14] {
+  height: 14px !important;
+}
+
+th[class=fullWidth]{ display:table !important; width:100% !important; text-align:center !important;}
+
+th[class=inline] {
+  display: table;
+}
+td[class=banner-mobile] {
+   background-image: url(cid:banner-mobile-cid) !important;
+   background-size: 300px 99px;
+   width: 300px !important;
+   height: 99px !important;
+   display: block !important;
+   background-repeat: no-repeat !important;
+}
+td[class=leftmobImg] {
+  background:url(cid:img-1-mobile-cid) no-repeat;
+  width: 300px !important;
+  height: 186px !important;
+  display: block !important;
+}
+td[class=rightmobImg] {
+  background:url(cid:img-2-mobile-cid) no-repeat;
+  width: 300px !important;
+  height: 186px !important;
+  display: block !important;
+}
+td[class=textCenter]{
+	text-align:center !important;
+	width: 100% !important;
+	display:block !important;
+}
+
+td[class=banner-mobile-browser] {
+   background:url(%URL_2% no-repeat;
+   width: 300px !important;
+   height: 99px !important;
+   display: block !important;
+}
+td[class=leftmobImg-browser] {
+  background:url(%URL_3% no-repeat;
+  width: 300px !important;
+  height: 186px !important;
+  display: block !important;
+}
+td[class=rightmobImg-browser] {
+  background:url(%URL_4% no-repeat;
+  width: 300px !important;
+  height: 186px !important;
+  display: block !important;
+}
+
+}
+
+}
+</style>
+
+<!--[if gte mso 9]>
+		<style type="text/css">
+			small {
+			font-size: 100% !important;
+			}
+		</style>
+		<![endif]-->
+<!--[if IE]>
+	<style type="text/css">
+		sup {
+		font-size: 78% !important;
+		line-height: 78% !important;
+		}
+		sup small {
+		font-size: 100% !important;
+		}
+	</style>
+	<![endif]-->
+
+
+</head>
+
+<body bgcolor="#fafafa" style="margin:0 auto; padding:0; margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:100%">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#fafafa" align="center" style="-webkit-text-size-adjust: none;">
+  <tr>
+    <td align="center"><table cellpadding="0" cellspacing="0" border="0" width="600" class="bodyWidth">
+        <tr>
+          <td align="left">
+            <table cellpadding="0" cellspacing="0" border="0" width="600" class="bodyWidth">
+              <tr>
+                <td>
+                   <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                      <tr>
+						<td style="width:18px;"><img class="spacerWidth10" src="cid:spacer-cid" alt="" width="18" height="1" style="display:block"></td><td>
+							<table border="0" cellspacing="0" cellpadding="0" width="100%">
+							  <tr>
+								 <td>
+									<table border="0" cellspacing="0" cellpadding="0" width="100%">
+									   <tr style="line-height:20px;height:20px">
+									   <td><img src="cid:spacer-cid" width="1" height="20" alt="" style="display:block;" class="spacerHeight14"></td></tr>
+									   
+									   <tr>
+											<td align="center">
+												<table cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+													<tr>
+														<th class="fullWidth" valign="middle">
+															<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																<tr style="font-size:12px; line-height:14px;">
+																	<td width="300" align="left" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 14px; color:#6d6565;" class="textCenter">A pickup in your pocket.</td>
+																</tr>
+															 </table>
+														</th>
+														<th class="fullWidth"><img src="cid:spacer-cid" alt="" width="6" height="10" style="display:block" class="spacerHeight10"></th><th class="fullWidth" valign="middle">
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr style="font-size:12px; line-height:14px;">
+																		<td width="258" align="right" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 14px; color:#6d6565;" class="textCenter"><a href="%URL_5% target="_blank" style=" color:#6d6565; text-decoration:underline;">View this email in your browser</a></td>
+																	</tr>
+																 </table>
+															</th></tr>
+												</table>
+											</td>
+										</tr>
+										
+									   <tr style="line-height:20px;height:20px">
+										   <td><img src="cid:spacer-cid" width="1" height="20" alt="" style="display:block;" class="spacerHeight10"></td></tr>
+									</table>
+								 </td>
+							  </tr>
+						   </table>
+						</td>
+						<td><img class="spacerWidth10" src="cid:spacer-cid" alt="" width="18" height="1" style="display:block"></td></tr>
+                   </table>
+                </td>
+             </tr>
+              <tr>
+                <td>
+                   <table border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+                      <tr>
+						<td bgcolor="#ffffff" width="18"><img class="spacerWidth10" src="cid:spacer-cid" alt="" width="18" height="1" style="display:block"></td><td bgcolor="#ffffff">
+							<table border="0" cellspacing="0" cellpadding="0">
+									   <tr style="line-height:18px;height:18px;">
+										   <td bgcolor="#ffffff"><img src="cid:spacer-cid" width="1" height="18" alt="" style="display:block;" class="spacerHeight12"></td></tr>
+									   <tr>
+									   <td class="banner-mobile"><img src="cid:banner-desktop-cid" alt="" class="hide" width="564" height="185"></td></tr>
+									   <tr style="line-height:20px;height:20px">
+											<td><img src="cid:spacer-cid" width="1" height="20" alt="" style="display:block;" class="spacerHeight14"></td></tr>
+									   <tr style="font-size: 20px; line-height: 22px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 22px; color:#1f1f1f;" class="fontSize16"><strong>Hi %CustomerName%,</strong></td>
+									   </tr>
+									   <tr style="line-height:20px;height:20px">
+										    <td><img src="cid:spacer-cid" width="1" height="20" alt="" style="display:block;" class="spacerHeight12"></td></tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13">I noticed you downloaded the Bungii app. Bravo! You might have a few questions so let's run over the basics.</td>
+									   </tr>
+									   <tr style="line-height:20px;height:20px">
+											<td><img src="cid:spacer-cid" width="1" height="20" alt="" style="display:block;" class="spacerHeight12"></td></tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13"><strong>Simply put:</strong></td>
+									   </tr>
+									   <tr style="line-height:15px;">
+										  <td><img src="cid:spacer-cid" width="1" height="15" alt="" style="display:block;" class="spacerHeight12"></td></tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13">Our drivers: background checked, vetted & trained</td>
+									   </tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13">Our response time: immediate</td>
+									   </tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13">Our reviews: <a href="%URL_6% target="_blank" style=" color:#2aa9de; text-decoration:underline;">5-stars</a> across the board</td>
+									   </tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13">Your stuff: where it needs to go</td>
+									   </tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13">Your life: simplified</td>
+									   </tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13">You: happy</td>
+									   </tr>
+									   <tr style="line-height:20px;height:20px">
+										   <td><img src="cid:spacer-cid" width="1" height="20" alt="" style="display:block;" class="spacerHeight12"></td></tr>
+									   
+									   <tr>
+											<td valign="top">
+												<table cellpadding="0" cellspacing="0" border="0">
+													<tr>
+														<th valign="top" bgcolor="#404040" width="264" class="Width300">
+															<table border="0" cellspacing="0" cellpadding="0">
+																<tr>
+																	<td class="leftmobImg"><img src="cid:img1-cid" alt="" width="264" height="160" style="display:block;" class="hide"></td></tr>
+																<tr style="line-height: 12px;">
+																	<td><img src="cid:spacer-cid" alt="" width="1" height="12" style="display:block;" class="spacerHeight10"></td></tr>
+																<tr>
+																<td>
+																	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																		<tr>
+																			<td width="20"><img src="cid:spacer-cid" alt="" width="20" height="1" style="display:block;" class="spacerWidth24"></td><td valign="top">
+																				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																					<tr style="font-size: 13px; line-height: 17px;">
+																						<td style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17px; color:#ffffff; text-align:center;">Furniture doesn't fit in your car? No worries. Now, there's an app for that.</td>
+																					</tr>
+																				</table>
+																			</td>
+																			<td width="20"><img src="cid:spacer-cid" alt="" width="20" height="1" style="display:block;" class="spacerWidth34"></td></tr>
+																		</table>
+																	</td>
+																</tr>
+																<tr style="line-height: 12px;">
+															
+																	<td><img src="cid:spacer-cid" alt="" width="1" height="12" style="display:block;" class="spacerHeight10"></td></tr>
+															</table>
+														</th>
+														
+																			<th class="inline"><img src="cid:spacer-cid" alt="" width="36" height="15" style="display:block;"></th><th valign="top" bgcolor="#404040" width="264" class="Width300">
+																	<table border="0" cellspacing="0" cellpadding="0">
+																		<tr>
+																			
+																			<td class="rightmobImg"><img src="cid:img2-cid" alt="" width="264" height="160" style="display:block;" class="hide"></td></tr>
+																		<tr style="line-height: 12px;">
+																			
+																			<td><img src="cid:spacer-cid" alt="" width="1" height="12" style="display:block;" class="spacerHeight10"></td></tr>
+																		<tr>
+																			<td>
+																				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																					<tr>
+																						
+																						<td width="20"><img src="cid:spacer-cid" alt="" width="20" height="1" style="display:block;" class="spacerWidth24"></td><td valign="top">
+																							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																								<tr style="font-size: 13px; line-height: 17px;">
+																									<td style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17px; color:#ffffff; text-align:center;">Oversized impulsive purchase? No problem. We've got you covered.</td>
+																								</tr>
+																							</table>
+																						</td>
+																						
+																						<td width="20"><img src="cid:spacer-cid" alt="" width="20" height="1" style="display:block;" class="spacerWidth34"></td></tr>
+																					</table>
+																				</td>
+																			</tr>
+																			<tr style="line-height: 12px;">
+																			
+																				<td><img src="cid:spacer-cid" alt="" width="1" height="12" style="display:block;" class="spacerHeight10"></td></tr>
+																	</table>
+																</th>		
+																
+													</tr>
+												</table>
+											</td>
+									   </tr>
+									   
+									   
+									   <tr style="line-height:20px;height:20px">
+										  
+											<td><img src="cid:spacer-cid" width="1" height="20" alt="" style="display:block;" class="spacerHeight12"></td></tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13"><strong>Wait, so is Bungii like a moving company or pizza delivery service?</strong></td>
+									   </tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13">Great question. We'd say somewhere right in the middle; think on-demand large item delivery. “No couch left behind,” is our motto. We’ve been called the “Uber for pickup trucks” to help move, haul or deliver stuff across town.</td>
+									   </tr>
+									   <tr style="line-height:20px;height:20px">
+										  
+										  <td><img src="cid:spacer-cid" width="1" height="20" alt="" style="display:block;" class="spacerHeight12"></td></tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13"><strong>Okay, it’s making more sense. So where would I need Bungii?</strong></td>
+									   </tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13">We work well with Craigslist, furniture/retail stores, and people who need help with small moves. Here’s our <a href="%URL_7% target="_blank" style=" color:#2aa9de; text-decoration:underline;">bread and butter</a>.</td>
+									   </tr>
+									   <tr style="line-height:20px;height:20px">
+										 
+										   <td><img src="cid:spacer-cid" width="1" height="20" alt="" style="display:block;" class="spacerHeight12"></td></tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13">Essentially, we just want to be available for your next, "I need a truck" moment.</td>
+									   </tr>
+										<tr style="line-height:20px;height:20px">
+										 
+										   <td><img src="cid:spacer-cid" width="1" height="20" alt="" style="display:block;" class="spacerHeight12"></td></tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13"><strong>Alright, I’m sold. But can I get an estimate?</strong></td>
+									   </tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13">Absolutely! In the app, you’ll receive an estimate right after you set your pickup and drop off locations. Our average trip costs right around $40.</td>
+									   </tr>
+									   <tr style="line-height:20px;height:20px">
+										 
+										  <td><img src="cid:spacer-cid" width="1" height="20" alt="" style="display:block;" class="spacerHeight12"></td></tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13">Hopefully that’s enough to get you started. If you have additional questions, here’s our <a href="%URL_8% target="_blank" style=" color:#2aa9de; text-decoration:underline;">FAQ page</a> or feel free to shoot us a tweet: @BungiiApp.</td>
+									   </tr>
+										<tr style="line-height:20px;height:20px">
+										 
+										   <td><img src="cid:spacer-cid" width="1" height="20" alt="" style="display:block;" class="spacerHeight12"></td></tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13">Ultimately, my goal is for Bungii to be a relevant part of your life. 
+</td>
+									   </tr>
+									   <tr style="line-height:20px;height:20px">
+										 
+										    <td><img src="cid:spacer-cid" width="1" height="20" alt="" style="display:block;" class="spacerHeight12"></td></tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13">Thanks,</td>
+									   </tr>
+									   <tr style="line-height:20px;height:20px">
+										 
+										    <td><img src="cid:spacer-cid" width="1" height="20" alt="" style="display:block;" class="spacerHeight12"></td></tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13"><strong>Ben Jackson</strong></td>
+									   </tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13">Bungii&nbsp;|&nbsp;Founder</td>
+									   </tr>
+									   <tr style="font-size: 14px; line-height: 20px;">
+										   <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color:#1f1f1f;" class="fontSize13"><a href="%URL_9% target="_blank" style=" color:#1f1f1f; text-decoration:none;">Bungii.com</a></td>
+									   </tr>
+									   <tr style="line-height:20px;height:20px">
+										 
+										  <td><img src="cid:spacer-cid" width="1" height="20" alt="" style="display:block;" class="spacerHeight12"></td></tr>
+									</table>
+						</td>
+						
+						<td bgcolor="#ffffff" width="18"><img class="spacerWidth10" src="cid:spacer-cid" alt="" width="18" height="1" style="display:block"></td></tr>
+                   </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

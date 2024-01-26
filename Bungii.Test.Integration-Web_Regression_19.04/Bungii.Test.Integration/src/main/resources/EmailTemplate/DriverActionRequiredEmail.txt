@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    	<title></title>
+		<link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" charset="utf-8">
+	</head>
+	<body>
+		Hi %DriverName%,
+		<br><br>
+		There are a few things we need you to fix in your Bungii
+		application. Please review and correct the marked fields so we
+		can get you driving.
+
+
+				<br><br>
+
+				To login into your account <a href="%Link%>click here</a>
+
+				<br><br>
+		Thanks,
+		<br>
+		The Bungii Team
+
+	</body>
+</html>

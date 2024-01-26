@@ -1,0 +1,5 @@
+<!DOCTYPEhtml>
+<htmllang="en">	<head>		<metacharset="utf-8">
+<title></title>		<linkrel="stylesheet"href="stylesheets/style.css"type="text/css"media="screen"charset="utf-8">
+</head>	<body>		HiAdmin,		<br><br>		Driver %driverFullName% ( %driverPhone% ) has completed registration.		<br><br>		Thanks.
+<br>			</body></html>

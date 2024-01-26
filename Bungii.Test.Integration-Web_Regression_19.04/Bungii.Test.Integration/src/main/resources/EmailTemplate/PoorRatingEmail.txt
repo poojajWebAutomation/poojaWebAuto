@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    	<title></title>
+		<link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" charset="utf-8">
+	</head>
+	<body>
+		Hi Admin,
+		<br><br>
+		Driver %DriverName% has received a %RatingValue% star rating from customer %CustomerName% on a recent trip.
+
+		<br><br>
+		%TripDetailsUrl%
+	</body>
+</html>

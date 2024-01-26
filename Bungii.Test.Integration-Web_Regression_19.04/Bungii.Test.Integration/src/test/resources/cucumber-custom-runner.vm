@@ -1,0 +1,184 @@
+#parse("/array.java.vm")
+#if ($packageName)
+//package $packageName;
+
+#end##
+package com.bungii;
+import com.bungii.common.utilities.ManageDevices;
+import com.bungii.SetupManager;
+import cucumber.api.CucumberOptions;
+import cucumber.api.testng.AbstractTestNGCucumberTests;
+import com.bungii.common.utilities.PropertyUtility;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
+import com.bungii.hooks.CucumberHooks;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.util.Properties;
+import java.io.IOException;
+import org.apache.commons.lang3.ArrayUtils;
+
+@CucumberOptions(
+        strict = $strict,
+        features = {"$featureFile"},
+        plugin ={"com.bungii.common.utilities.CustomFormatter"},
+        monochrome = ${monochrome},
+#if(!$featureFile.contains(".feature:") && $tags)
+        tags = #stringArray($tags),
+#end
+        glue = #stringArray($glue))
+public class $className extends AbstractTestNGCucumberTests {
+	//private static final String RUN_CONFIG_PROPERTIES = "/profile.properties";
+    private static final String INITIAL_FILE_NAME="login";
+    private static String REMOTE_ADB_HOST,REMOTE_ADB_PORT="5554";
+        String lstallDevice;
+	CucumberHooks hooks;
+	/*public $className(){
+		this.hooks= new Hooks();
+	}*/
+	
+	  @Parameters({"test.Device","test.Platform","test.Environment","test.Category","multiple.data.file","remote.adb.ip"})
+	public $className(@Optional("device1") String device, @Optional("web") String Platform, @Optional("QA") String environment, @Optional("sanity") String category, @Optional("false") String multipleLoginFile,@Optional("") String remoteAdbHost){
+		String ClassName =this.getClass().getSimpleName();
+         lstallDevice=device;
+        System.setProperty("ALL_DEVICES",lstallDevice);
+        System.setProperty("Platform", Platform);
+
+
+         if (Platform.equalsIgnoreCase("ios") || Platform.equalsIgnoreCase("android")) {
+             //if mutiple devices are pass from maven then get class number and use that device for running that class
+             if (lstallDevice.split(",").length > 1) {
+                 String curentThreadNumber = ClassName.substring(2, 4);
+                 boolean duoFirst = false, soloFirst = false;
+                if(curentThreadNumber.equals("01")){
+                 if(category.equalsIgnoreCase("duo")){
+                  ManageDevices.write("");
+                    System.setProperty("DEVICE", lstallDevice.split(",")[0]);
+                    System.out.println("*** Found device for class : "+ClassName+ " | Devices for duo ");
+                    duoFirst = true;
+                 }
+                 else{
+                     ManageDevices.write(lstallDevice.split(",")[1]);
+                     System.setProperty("DEVICE", lstallDevice.split(",")[0]);
+                     System.out.println("*** Found device for class : "+ClassName+ " | Device: "+ lstallDevice.split(",")[0]);
+                      soloFirst = true;
+                     }
+                  }
+                         if(curentThreadNumber.equals("02")){
+                            try {Thread.sleep((5000));} catch (InterruptedException e) {e.printStackTrace();}
+                             }
+                         if(duoFirst==false && soloFirst == false)
+                         {
+                     try {Thread.sleep(2000);} catch (InterruptedException e) {e.printStackTrace();}
+                     boolean searchFreeDevice=true;
+                     boolean counter=false;
+                     do{
+                         try {Thread.sleep((long)(Math.random() * 2000));} catch (InterruptedException e) {e.printStackTrace();}
+                         device= ManageDevices.readFile();
+                         if (device==" "){
+                         if (counter==false){
+                         System.out.println("*** All devices are busy. Wait for device to be free to continue with class "+ClassName);
+                         counter=true;
+                         }
+                         }
+                         else{
+
+                            }
+                         if(device!=null){
+                             if(!device.isEmpty()){
+                                 String[] deviceList = device.split(",");
+                                 String deviceToBeUsed=deviceList[0];
+                                 System.setProperty("DEVICE", deviceToBeUsed);
+                                 System.out.println("*** Searching device for class "+ClassName);
+                                 System.out.println("*** Found device for class : "+ClassName+ " | Device : "+deviceToBeUsed);
+                                 deviceList = ArrayUtils.remove(deviceList, 0);
+                                 String strDeviceList = String.join(",", deviceList);
+                                 ManageDevices.write(strDeviceList);
+                                 //System.out.println("*** Updated device for class : "+ClassName+ " | Device : "+ManageDevices.readFile());
+                                 searchFreeDevice=false;
+                             }
+                         }
+                         if(searchFreeDevice==true)
+                         try {Thread.sleep(20000);} catch (InterruptedException e) {e.printStackTrace();}
+
+                     }while (searchFreeDevice);
+                     System.out.println("*** Starting Test for class "+ClassName);
+                 }
+             } else {
+                 System.setProperty("DEVICE", device);
+                 ManageDevices.write("");
+             }
+         }
+         if(multipleLoginFile.trim().equalsIgnoreCase("true")){
+            // ClassName="Parallel02IT";
+         //    String threadNumber = ClassName.substring(2, 4);
+         //    System.setProperty("LOGIN_FILE",INITIAL_FILE_NAME+"_"+environment.toLowerCase()+"_"+threadNumber);
+         //    System.out.println("LOGIN FILE :"+INITIAL_FILE_NAME+"_"+environment.toLowerCase()+"_"+threadNumber);
+
+            switch (System.getProperty("DEVICE").toLowerCase()){
+                case "device1":
+                    System.setProperty("LOGIN_FILE",INITIAL_FILE_NAME);
+                    break;
+                case "device2":
+                    System.setProperty("LOGIN_FILE",INITIAL_FILE_NAME+"_"+environment.toLowerCase()+"_01");
+                    break;
+                case "device3":
+                    System.setProperty("LOGIN_FILE",INITIAL_FILE_NAME+"_"+environment.toLowerCase()+"_02");
+                    break;
+                case "extra1":
+                    System.setProperty("LOGIN_FILE",INITIAL_FILE_NAME+"_"+environment.toLowerCase()+"_03");
+                    break;
+            }
+         }
+         System.setProperty("runner.class", ClassName);
+         //this is to update values from config value
+         PropertyUtility.environment=environment;
+         PropertyUtility.targetPlatform=Platform;
+         System.setProperty("remoteAdbHost",remoteAdbHost);
+         this.hooks = new CucumberHooks();
+	}
+	
+
+ 	@Parameters({"NameWithtimestamp","test.Platform","test.Environment"})
+ 		@BeforeSuite
+        public void start(@Optional("") String resultFolder,@Optional("web") String Platform, @Optional("QA") String environment)
+ 		{/*     Properties props = new Properties();
+
+                String propsFileName = "./target/classes/UserProperties/config.properties";
+                try {
+                    //first load old one:
+                    FileInputStream configStream = new FileInputStream(propsFileName);
+                    props.load(configStream);
+                    configStream.close();
+
+                    //modifies existing or adds new property
+                    props.setProperty("target.platform", Platform);
+                    props.setProperty("environment", environment);
+
+                    //save modified property file
+                    FileOutputStream output = new FileOutputStream(propsFileName);
+                    props.store(output, "");
+                    output.close();
+
+                } catch (IOException ex) {
+                    ex.printStackTrace();
+                }*/
+            try {this.hooks.start(resultFolder); }catch (Exception e){afterSuite(); e.printStackTrace(); }
+
+ 	}
+    @AfterSuite
+    public  void afterSuite() {
+
+                if (PropertyUtility.targetPlatform.equalsIgnoreCase("ios") || PropertyUtility.targetPlatform.equalsIgnoreCase("android"))
+                    ManageDevices.afterSuiteManageDevice();
+
+        try {
+            this.hooks.tearDown();
+        } catch (IOException e1) {
+            //e1.printStackTrace();
+        }    }
+	}

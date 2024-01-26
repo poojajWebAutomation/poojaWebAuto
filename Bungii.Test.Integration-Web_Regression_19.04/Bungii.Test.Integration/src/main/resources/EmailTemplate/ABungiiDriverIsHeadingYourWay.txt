@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<body>
+    <div>
+        <span style="font-family: arial,helvetica,sans-serif;">Hi there,&nbsp;</span>
+    </div>
+    <br/>
+    <div>
+        <span style="font-family: arial,helvetica,sans-serif;">Bungii driver %DriverName% will arrive soon to pick up item(s) for your customer %CustomerName% with Order Id .&nbsp;</span>
+    </div>
+
+    <br/>
+    <div>
+    <div>
+            <div>
+                <span>
+                    <span style="font-family: arial,helvetica,sans-serif;">Name: %DriverName%&nbsp;</span>
+                </span>
+            </div>
+            <div>
+                <span>
+                    <span style="font-family: arial,helvetica,sans-serif;">Phone Number: %DriverPhoneNumber%&nbsp;</span>
+                </span>
+            </div>
+            <div>
+                <span>
+                    <span style="font-family: arial,helvetica,sans-serif;">License Plate: %driverCarLicenceNumber%&nbsp;</span>
+                </span>
+            </div>
+        </div><br />
+    </div>
+
+    <br/>
+    <div>
+        <span style="font-family: arial,helvetica,sans-serif;">For questions or assistance, please text or email Bungii support at 12345 or support@bungii.com.&nbsp;</span>
+        <br/>
+        <br/>
+        <span style="font-family: arial,helvetica,sans-serif;">Thanks again for using Bungii. We're honored to be a resource to you and your customers.&nbsp;</span>
+        <br/>
+        <br/>
+        <span style="font-family: arial,helvetica,sans-serif;">-Team Bungii&nbsp;</span>
+    </div>
+</body>
+</html>

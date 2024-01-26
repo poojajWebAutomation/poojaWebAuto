@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    	<title></title>
+		<link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" charset="utf-8">
+	</head>
+	<body>
+		Hi %DriverName%,
+		<br><br>
+		Thank you for applying to drive with Bungii. At this time the requirements to become a Bungii driver were not met.
+
+				<br><br>
+		If you feel like this information is wrong or if you have any
+		questions, we are happy to help.
+
+
+				<br><br>
+		Thanks,
+		<br>
+		The Bungii Team
+
+	</body>
+</html>

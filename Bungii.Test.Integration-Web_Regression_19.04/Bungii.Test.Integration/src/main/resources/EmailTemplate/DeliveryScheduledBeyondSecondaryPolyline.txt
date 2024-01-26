@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<body>
+    <div>
+        <span style="font-family: arial,helvetica,sans-serif;">Hi there,&nbsp;</span>
+    </div>
+    <br/>
+    <div>
+        <span style="font-family: arial,helvetica,sans-serif;">A Bungii delivery has been scheduled OUTSIDE OUR SECOND POLYLINE DELIVERY ZONE. This means it is still within the delivery radius limits, but will be dropped off in a known area of challenge (ex. New York City). Please see instructions and details below:&nbsp;</span>
+    </div>
+	<div>
+		<h3>INSTRUCTIONS: </h3>
+		<div>
+			<ol>
+				<li><span style="font-family: arial,helvetica,sans-serif;">Make pricing adjustment to total delivery cost and driver earnings in the Admin Portal.</span></li>
+				<li><span style="font-family: arial,helvetica,sans-serif;">Notify the store by email of the pricing adjustment to the delivery for the challenging drop off area.</span></li>
+			</ol>
+		</div>
+	</div>
+
+	<h3>DETAILS: </h3>
+    <div>
+      <span style="font-family: arial,helvetica,sans-serif;">Pickup address: %PickupAddress%. &nbsp;</span>
+    </div> 
+    <div>
+      <span style="font-family: arial,helvetica,sans-serif;">Delivery address: %DropupAddress%. &nbsp;</span>
+    </div>
+	<div>
+      <span style="font-family: arial,helvetica,sans-serif;">Scheduled date-time: %ScheduledDate% &nbsp;</span>
+    </div>
+    <br/>
+
+    <div>
+        <div>
+            <span style="font-family: arial,helvetica,sans-serif;">Customer name: %CustomerName% &nbsp;</span>
+        </div> 
+        <div>
+            <span style="font-family: arial,helvetica,sans-serif;">Customer phone number: %CustomerPhone% &nbsp;</span>
+        </div>
+    </div>
+    <br/>
+
+	<div>
+    <div>
+            <span style="font-family: arial,helvetica,sans-serif;">Pickup contact name: %PickupContactName%</span>
+        </div> 
+	<div>
+            <span style="font-family: arial,helvetica,sans-serif;">Pickup contact phone: %PickupContactPhone%</span>
+        </div>
+	
+	
+    </div>
+    <br/>  
+    
+        
+    <div>
+            <span style="font-family: arial,helvetica,sans-serif;">Item(s) to deliver: %ItemsToDeliver%</span>
+        </div>
+	
+			
+	
+	
+	<div>
+            <span style="font-family: arial,helvetica,sans-serif;">Tracking id: %TrackingId%</span>
+        </div>
+    <br/>
+    <br />
+	<div>
+        <span style="font-family: arial,helvetica,sans-serif;">Thanks,&nbsp;</span>
+    </div>
+    <br/>
+    <div>
+        <span style="font-family: arial,helvetica,sans-serif;">Team Bungii&nbsp;</span>
+    </div>
+</body>
+</html>

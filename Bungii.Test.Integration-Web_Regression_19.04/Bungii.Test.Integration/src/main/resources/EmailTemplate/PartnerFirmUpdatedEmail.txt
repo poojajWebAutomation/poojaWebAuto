@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<body>
+   <div>
+      <span style="font-family: arial,helvetica,sans-serif;">Hi there,&nbsp;</span>
+    </div>
+    <br/>
+    <div>
+      <span style="font-family: arial,helvetica,sans-serif;">We wanted to give you a heads up that we matched customer,%CustomerName%,with a driver who is better suited to handle the delivery. Please update the pending load with the new Bungii driver’s information below: &nbsp;</span>
+    </div>
+    <br/>
+    <div>
+      <span style="font-family: arial,helvetica,sans-serif;">Estimated Scheduled Pickup Time: %TimeStamp%&nbsp;</span>
+    </div>
+
+  <br/>
+  <div>
+
+    <div>
+        <div>
+          <span>
+            <span style="font-family: arial,helvetica,sans-serif;">Bungii Driver Name: %DriverName%&nbsp; <b>← Details updated! </b></span>
+          </span>
+			  </div>
+        <div>
+          <span>
+            <span style="font-family: arial,helvetica,sans-serif;">Bungii Driver Phone Number: %DriverPhone%&nbsp;  <b>← Details updated! </b></span>
+          </span>
+			  </div>
+        <div>
+          <span>
+            <span style="font-family: arial,helvetica,sans-serif;">Bungii Driver License Plate: %DriverLicencePlate%&nbsp;  <b>← Details updated! </b></span>
+          </span>
+			  </div>
+		  </div><br />
+  </div>
+  <br/>
+  <div>
+    <span style="font-family: arial,helvetica,sans-serif;">Bungii support is currently in contact with the customer and driver. They have both been notified. If you have any questions, please text the Bungii support line at: 12345&nbsp;</span>
+    <br/>
+    <br/>
+    <span style="font-family: arial,helvetica,sans-serif;">Thanks again much for using Bungii. We're honored to be a resource to Mattress Firm US and your customers.&nbsp;</span>
+    <br/>
+    <br/>
+    <span style="font-family: arial,helvetica,sans-serif;">-Team Bungii&nbsp;</span>
+  </div>
+</body>
+</html>
+
+
+

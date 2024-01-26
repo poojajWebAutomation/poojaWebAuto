@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    	<title></title>
+		<link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" charset="utf-8">
+	</head>
+	<body>
+		Hi %DriverName%,
+		<br><br>
+			Thanks for signing up to drive with Bungii. Your application will
+			be reviewed and we'll get back to you as soon as we can. We
+			look forward to having you on #TeamBungii. If you have any
+			questions feel free to email us at notify@bungii.com or tweet
+			at us @bungiiapp.
+
+		<br><br>
+		Thanks,
+		<br>
+		The Bungii Team
+
+	</body>
+</html>
